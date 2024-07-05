@@ -118,7 +118,10 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Scripts\ClearScene.cpp" />
     <ClCompile Include="Scripts\GameManager.cpp" />
+    <ClCompile Include="Scripts\ICommand.cpp" />
+    <ClCompile Include="Scripts\InputHandle.cpp" />
     <ClCompile Include="Scripts\IScene.cpp" />
+    <ClCompile Include="Scripts\Player.cpp" />
     <ClCompile Include="Scripts\StageScene.cpp" />
     <ClCompile Include="Scripts\TitleScene.cpp" />
   </ItemGroup>
@@ -152,7 +155,10 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
     <ClInclude Include="Scripts\ClearScene.h" />
     <ClInclude Include="Scripts\GameManager.h" />
+    <ClInclude Include="Scripts\ICommand.h" />
+    <ClInclude Include="Scripts\InputHandle.h" />
     <ClInclude Include="Scripts\IScene.h" />
+    <ClInclude Include="Scripts\Player.h" />
     <ClInclude Include="Scripts\StageScene.h" />
     <ClInclude Include="Scripts\TitleScene.h" />
   </ItemGroup>
